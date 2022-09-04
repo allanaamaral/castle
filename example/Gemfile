@@ -1,0 +1,25 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# Project requirements
+gem 'rake'
+
+# Component requirements
+gem 'dm-aggregates'
+gem 'dm-constraints'
+gem 'dm-core'
+gem 'dm-migrations'
+gem 'dm-sqlite-adapter'
+gem 'dm-timestamps'
+gem 'dm-types'
+gem 'dm-validations'
+gem 'haml'
+
+# Padrino Stable Gem
+gem 'padrino'
+
+# To enable https
+gem 'thin'
+
+gem 'u2f', '1.0.0'
